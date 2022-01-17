@@ -1,7 +1,10 @@
 * {
+
     margin: 0;
     padding: 0;
-    text-decoration: none; }
+    text-decoration: none; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .partie {
     height: 100vh;
@@ -25,7 +28,7 @@
 
 footer {
     background-color: rgb(3, 4, 94);
-    padding: 5%;
+
 }
 
 #portfolio {
@@ -348,12 +351,11 @@ footer {
     }
 
     #lune {
-        border-radius: 50%;
         width: 8%;
         display: block;
         position: absolute;
-        top: 408%;
-        left: 88%;
+        top: 478%;
+        left: 90%;
     
         animation-name: rotate;
         animation-duration: 10s;
@@ -370,7 +372,9 @@ footer {
 
     #instagram {
         width: 6%;
-        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
     }
 
     #instagram:hover {
@@ -382,6 +386,10 @@ footer {
 
     #linkedin {
         width: 6%;
+        position: absolute;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        right: 20px;
     }
 
     #linkedin:hover {
@@ -389,4 +397,52 @@ footer {
         transition-property: transform;
         transition-duration: 0.1s;
         transition-timing-function: ease-in;
+    }
+
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      
+      input[type=submit] {
+        background-color: rgb(0, 180, 216);
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 32px;
+        cursor: pointer;
+      }
+      
+      input[type=submit]:hover {
+        background-color: rgb(0, 159, 190);
+      }
+      
+      .container {
+        background-color: rgb(238, 235, 224);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+
+      #prenom {
+          width: 100%;
+      }
+
+      #nomdefamille {
+        width: 100%;
+    }
+
+    #message {
+        width: 100%;
+    }
+
+    #email {
+        width: 100%;
     }
