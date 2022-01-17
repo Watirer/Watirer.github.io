@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none; }
+
+.partie {
+    height: 100vh;
+    width: 100%; }
+
+.first {
+    background-color:rgb(202, 240, 248);
+}
+
+.second {
+    background-color:rgb(144, 224, 239);
+}
+
+.third {
+    background-color:rgb(0, 180, 216);
+}
+
+.fourth {
+    background-color:rgb(0, 119, 182);
+}
+
+footer {
+    background-color: rgb(3, 4, 94);
+    padding: 5%;
+}
+
+#portfolio {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 400%;
+    color: rgb(3, 4, 94);
+    text-align: center;
+}
+
+#nom {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    color: rgb(3, 4, 94);
+    text-align: center;
+}
+
+#but {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+    color: rgb(3, 4, 94);
+    text-align: center;
+}
+
+#conteneur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+}
+
+#photodemoi {
+    border-radius: 50%;
+    width: 20%;
+    display: block;
+	position: absolute;
+}
+
+#soleil {
+    border-radius: 50%;
+    width: 22%;
+    display: block;
+	position: absolute;
+
+    animation-name: rotate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    }
+
+@keyframes rotate{
+        from{ transform: rotate(-360deg); }
+        to{ transform: rotate(360deg);
+    }
+}
+
+#nuage1 {
+    width: 25%;
+    position: absolute;
+    top: 3%;
+    left: 8%;
+}
+
+#nuage2 {
+    width: 20%;
+    position: absolute;
+    top: 22%;
+    left: 70%;
+}
+
+#nuage3 {
+    width: 13%;
+    position: absolute;
+    top: 55%;
+    left: 62%;
+}
+
+#apropos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 400%;
+    color: rgb(3, 4, 94);
+    text-align: center;
+}
+
+    #texte1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 130%;
+        color: rgb(3, 4, 94);
+        text-align: left;
+        position: absolute;
+        top: 135%;
+        left: 3%;
+    }
+
+    #texte2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 130%;
+        color: rgb(3, 4, 94);
+        text-align: right;
+        position: absolute;
+        top: 165%;
+        right: 3%;
+    }
+
+    #nuage4 {
+        width: 25%;
+        position: absolute;
+        top: 100%;
+        left: 65%;
+    }
+
+    #nuage5 {
+        width: 20%;
+        position: absolute;
+        top: 145%;
+        left: 10%;
+    }
+
+    #nuage6 {
+        width: 13%;
+        position: absolute;
+        top: 170%;
+        left: 28%;
+    }
+
+    #oiseaux1 {
+        width: 8%;
+        position: absolute;
+        top: 150%;
+        left: 62%;
+        transform: scaleX(-1);
+    }
+
+    #oiseaux2 {
+        width: 9%;
+        position: absolute;
+        top: 128%;
+        left: 30%;
+    }
+
+    #oiseaux3 {
+        width: 5%;
+        position: absolute;
+        top: 125%;
+        left: 27%;
+        transform: scaleX(-1);
+    }
+
+    #bateau {
+        width: 9%;
+        position: absolute;
+        top: 180.3%;
+        left: 60%;
+    }
+
+#travaux {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 400%;
+    color: rgb(238, 235, 224);
+    text-align: center;
+}
+
+#dessin1 {
+    width: 25%;
+    position: absolute;
+    top: 230%;
+    left: 7.5%;
+}
+
+#dessin2 {
+    width: 20%;
+    position: absolute;
+    top: 219.5%;
+    left: 40%;
+}
+
+#dessin3 {
+    width: 25%;
+    position: absolute;
+    top: 230%;
+    left: 67.5%;
+}
+
+#poisson1 {
+    width: 6%;
+    position: absolute;
+    top: 215%;
+    left: 70%;
+}
+
+#poisson2 {
+    width: 4%;
+    position: absolute;
+    top: 215%;
+    left: 66%;
+}
+
+#poisson3 {
+    width: 5%;
+    position: absolute;
+    top: 260%;
+    left: 34%;
+}
+
+#mescompetences {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 400%;
+    color: rgb(238, 235, 224);
+    text-align: center;
+}
+
+    .competences .logiciels {
+        display: flex;
+        flex-direction: column;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 210%;
+        color: rgb(238, 235, 224);
+        margin-left: 20%;
+        margin-top: 5%;
+    }
+
+    .competences .logiciels span {
+        margin: 2%;
+    }
+    
+    .barre1 { 
+        width: 450px;
+        height: 26px;
+        padding: 4px;
+        background-color: rgb(238, 235, 224);
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        margin-left: 30%;
+        margin-top: -31%;
+    }
+
+    .barre1:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 230px;
+        height: 26px;
+        background: rgb(0, 180, 216);
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+    }
+
+    .barre2 {
+        width: 450px;
+        height: 26px;
+        padding: 4px;
+        background-color: rgb(238, 235, 224);
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        margin-left: 30%;
+        margin-top: -8%;
+    }
+
+    .barre2:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 130px;
+        height: 26px;
+        background: rgb(0, 180, 216);
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+    }
+
+    .barre3 {
+        width: 450px;
+        height: 26px;
+        padding: 4px;
+        background-color: rgb(238, 235, 224);
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        margin-left: 30%;
+        margin-top: -8%;
+    }
+
+    .barre3:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 180px;
+        height: 26px;
+        background: rgb(0, 180, 216);
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+    }
+
+    .barre4 {
+        width: 450px;
+        height: 26px;
+        padding: 4px;
+        background-color: rgb(238, 235, 224);
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+        margin-left: 30%;
+        margin-top: -8%;
+    }
+
+    .barre4:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 50px;
+        height: 26px;
+        background: rgb(0, 180, 216);
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+    }
+
+    #lune {
+        border-radius: 50%;
+        width: 8%;
+        display: block;
+        position: absolute;
+        top: 408%;
+        left: 88%;
+    
+        animation-name: rotate;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        border-radius: 50%;
+        }
+    
+    @keyframes rotate{
+            from{ transform: rotate(-360deg); }
+            to{ transform: rotate(360deg);
+        }
+    }
+
+    #instagram {
+        width: 6%;
+        padding-right: 20px;
+    }
+
+    #instagram:hover {
+        transform: scale(1.2);
+        transition-property: transform;
+        transition-duration: 0.1s;
+        transition-timing-function: ease-in;
+    }
+
+    #linkedin {
+        width: 6%;
+    }
+
+    #linkedin:hover {
+        transform: scale(1.2);
+        transition-property: transform;
+        transition-duration: 0.1s;
+        transition-timing-function: ease-in;
+    }
